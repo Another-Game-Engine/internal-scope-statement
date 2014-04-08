@@ -7,9 +7,11 @@ Different view :
 - Left / Right
 - Back / Front
 
-View from cameras
+View from different cameras
 
 Different 3D space activated ( ex :  camera free fly + view form camera 1)
+
+Scene should be still editable from the view of a camera
 
 ## Entity transform
 

@@ -103,14 +103,19 @@ De plus ces assets doivent pouvoir contenir des infos de material par defaut.
 
 ### Materials
 
-- Color
-- Normal
-- Binormal
-- Bump
-- Textures[file path]
+- diffuse color
+- ambiant color
+- specular color
+- diffuse ratio
+- ambiant ratio
+- specular ratio
+- normal map ratio
+- reflection map ratio
+- transparence ratio
 - NormalMap
-- BumpMap
-- ... a completer
+- ReflectionMap
+- brillance ratio
+- emissive ratio
 
 ### Fonts
 

@@ -12,6 +12,7 @@
 	- tga
 	- png
 	- jpg
+	- pkm
 - Mesh
 	- Obj
 	- Collada
@@ -30,9 +31,7 @@
 ## Formats de sortie
 
 - Textures
-	- Texture (.tage)
-	- Cubemap (.cmage)
-	- 3D Texture (.3dtage)
+	- Texture (.tage, compressées, non compressées, cube maps et textures 3D)
 - Mesh
 	- Mesh (.sage)
 	- Skeleton (.skage)
@@ -59,20 +58,11 @@ Au moment du load, les informations inutiles seront liberee en memoire :
 
 - Width
 - Height
+- Compression ? (la texture est compressée ou non)
 - Color type (rgb, rgba, 8, 16, 32, etc)
-- Binary pixel data
-
-#### Cubemap (.cmage)
-
-- Color type (rgb, rgba, 8, 16, 32, etc)
-- Binary pixel data
-
-#### 3D texture (.3dtage)
-
-- Width
-- Height
-- Depth
-- Color type (rgb, rgba, 8, 16, 32, etc)
+- Layer Nbr (6 pour les cube maps, correspond à la depth pour les textures 3d)
+- Layer byte size (tous les layers ont la même taille)
+- MipMaps Nbr (si il y a des mipmaps précalculées)
 - Binary pixel data
 
 ### Meshs

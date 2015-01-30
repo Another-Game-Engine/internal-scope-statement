@@ -79,7 +79,7 @@ En 1920x1080 il est interdit de descendre en dessous de 30fps sur les ordis mode
 - GUI
 - Sons
 
-### XI
+### IX
 
 - Ajout d'element de gameplay :
     - Bonus (il faut tirer dessus)
@@ -89,5 +89,19 @@ En 1920x1080 il est interdit de descendre en dessous de 30fps sur les ordis mode
 ### X
 
 - Elements breakeable
+
+-------------------------------------------------
+
+### Liste des components
+
+- Rigidbody
+- Pistol
+- Bullet
+- Player
+- Life
+- Mesh
+- Camera
+
+
 
 

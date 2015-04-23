@@ -17,7 +17,7 @@ POLO:
 Dorian:
 * Pour les noms de component je pense que l'on devrait procéder comme suivant : Nom1Component, Nom2Component. En plus de cela on rajouterai un namespace Cmpt.
 **code**
-<code>
+```
 namespace cmpt
 {
 
@@ -28,12 +28,12 @@ namespace cmpt
 }
 
 cmpt::PointLightComponent l;
-</code>
+```
 
 * Pour les component cullables, c'est à dire qui doivent passer au travers du render thread : Nom1Cullable, Nom2Cullable.
 Dans un namespace cull
 **code**
-<code>
+```
 namespace cull
 {
 
@@ -45,7 +45,7 @@ namespace cull
 }
 
 cull::PointLightCullable p;
-</code>
+```
 
 ## Refactor sur les message entre les threads
 

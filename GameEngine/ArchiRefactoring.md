@@ -52,7 +52,7 @@ cull::PointLightCullable p;
 Dorian:
 * Pour les component, Interdiction d'avoir plus d'un argument par message, si jamais plusieur info doivent transiter faire un objet: Nom1Data, Nom2Data servent à se tranfère. Toujours dans le namespace cmpt
 **code**
-`
+```
   namespace cmpt
   {
     class SpotLightComponent
@@ -71,5 +71,5 @@ Dorian:
     SetSpotLightMessage(SpotLightData const &);
     SpotLightData data;
   };
-`
+```
 * Peut etre mettre tous les messages entre thread dans un namespace genre msg ?

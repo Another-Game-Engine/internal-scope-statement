@@ -72,4 +72,3 @@ Dorian:
     SpotLightData data;
   };
 ```
-* Peut etre mettre tous les messages entre thread dans un namespace genre msg ?
